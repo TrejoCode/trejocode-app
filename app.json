@@ -1,9 +1,14 @@
 {
   "expo": {
-    "name": "trejocode-app",
-    "slug": "trejocode-app",
+    "name": "Trejocode - Cursos",
+    "slug": "Trejocode",
+    "description": "Trejocode app - Aprende a crear aplicaciones móviles de manera gratuita",
     "version": "1.0.0",
+    "owner": "Trejocode",
+    "platforms": ["ios", "android"],
+    "githubUrl": "https://github.com/TrejoCode",
     "orientation": "portrait",
+    "primaryColor": "#3E816D",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -14,16 +19,14 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#ffffff"
       }
     },
     "web": {
